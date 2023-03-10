@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KinexPrueba2.Views.LoginView"
+             Title="LoginView">
+
+
+    <Grid Background="red">
+
+        <Frame HorizontalOptions="Start" Margin="0,0,0,690" CornerRadius="0"></Frame>
+        <Frame HorizontalOptions="End" Margin="0,690,0,0" CornerRadius="0"></Frame>
+        <Frame Margin="0,480,0,122" BackgroundColor="Pink" CornerRadius="0"></Frame>
+        <Frame Margin="50,50,50,400"></Frame>
+       
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </Grid>
+    
+    
+    
+    
+    
+</ContentPage>

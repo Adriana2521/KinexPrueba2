@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KinexPrueba2.Views.PaginaDeInicioView"
+             Title="PaginaDeInicioView">
+
+
+
+    <Grid>
+
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="#02894D"
+                          Offset="0.1" />
+
+                <GradientStop Color="#00FF8D"
+                          Offset="1.0" />
+
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Button Margin="70,620,70,90" 
+                CornerRadius="50" 
+                HeightRequest="80"
+                Text="INICIAR AHORA"
+                CharacterSpacing="1"
+                FontSize="30"
+                FontAttributes="Bold">
+
+            <Button.Background>
+
+                <LinearGradientBrush  EndPoint="0,1">
+
+                    <GradientStop Color="#00FF8D"
+                          Offset="0.1" />
+
+                    <GradientStop Color="#00864A"
+                          Offset="1.0" />
+
+                </LinearGradientBrush>
+
+            </Button.Background>
+
+        </Button>
+
+
+        <Frame Margin="0,-40,0,270" 
+               CornerRadius="70"
+               BorderColor="White">
+
+            <Grid BackgroundColor="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="1"
+                       Text="KINEX"
+                       HorizontalTextAlignment="Center"
+                       TextColor="#046A3D"
+                       FontSize="55"
+                       CharacterSpacing="1"
+                      
+                                         >
+                    <Label.Shadow>
+                        <Shadow Brush="gray" Offset="5,5" Opacity="0.8"></Shadow>
+                    </Label.Shadow>
+
+                </Label>
+                <Label Grid.Row="2" 
+                       Text="FISIOTERAPIA KINEX TU MEJOR OPCION"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,-20"
+                       FontSize="13">
+
+                </Label>
+
+
+
+
+            </Grid>
+        </Frame>
+
+
+    </Grid>
+
+
+
+
+
+
+</ContentPage>
